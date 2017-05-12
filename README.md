@@ -59,3 +59,9 @@ Then Add new mode and change the monitor resolution:
 xrandr --addmode Virtual1 "1920x1080_60.00"
 xrandr --output Virtual1 --mode "1920x1080_60.00"
 ```
+
+### Add bash for one user
+
+```bash
+sudo chsh -s /bin/bash USER_NAME
+```

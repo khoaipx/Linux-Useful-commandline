@@ -65,3 +65,10 @@ xrandr --output Virtual1 --mode "1920x1080_60.00"
 ```bash
 sudo chsh -s /bin/bash USER_NAME
 ```
+
+### Delete first line of file
+
+```bash
+tail -n +2 "$FILE1" > "$FILE2"
+sed 1d "$FILE1" > "$FILE2"
+```
